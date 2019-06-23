@@ -1,0 +1,14 @@
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\bin\Debug\JabTestAppVB.exe
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\bin\Debug\JabTestAppVB.pdb
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\bin\Debug\JabTestAppVB.xml
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\bin\Debug\JabApi.dll
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\bin\Debug\JabApi.pdb
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\obj\x86\Debug\JabTestAppVB.vbprojResolveAssemblyReference.cache
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\obj\x86\Debug\JabTestAppVB.JABDump.resources
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\obj\x86\Debug\JabTestAppVB.Resources.resources
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\obj\x86\Debug\JabTestAppVB.vbproj.GenerateResource.cache
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\obj\x86\Debug\JabTestAppVB.vbproj.CoreCompileInputs.cache
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\obj\x86\Debug\JabTestAppVB.vbproj.CopyComplete
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\obj\x86\Debug\JabTestAppVB.exe
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\obj\x86\Debug\JabTestAppVB.xml
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabTestAppVB\obj\x86\Debug\JabTestAppVB.pdb

@@ -1,0 +1,6 @@
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiLib\bin\Debug\JabApi.dll
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiLib\bin\Debug\JabApi.pdb
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiLib\obj\Debug\JabApiLib.csprojResolveAssemblyReference.cache
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiLib\obj\Debug\JabApiLib.csproj.CoreCompileInputs.cache
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiLib\obj\Debug\JabApi.dll
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiLib\obj\Debug\JabApi.pdb

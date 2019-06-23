@@ -1,0 +1,11 @@
+* Search function
+  * Allow searching the accessibility tree for nodes with a specific role, name, etc.
+  * Scope: Abitility to define which part of the tree to searching
+  * What: Ability to define what to search for (role, name, position, etc.)
+  
+* Option to define maximum # of events to display in the "Events" list view
+
+* Ability to filter events by JVM id, window, etc.
+
+* Move all options into a "Settings" dialog (menu is getting clutered)
+

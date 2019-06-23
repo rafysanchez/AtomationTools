@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60FB05ED-62D8-41F1-9287-DF4183B7FE4F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeGen</RootNamespace>
+    <AssemblyName>CodeGen</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\CodeGen.XML</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\WindowsAccessBridgeInterop\VersionNumber.cs">
+      <Link>VersionNumber.cs</Link>
+    </Compile>
+    <Compile Include="Definitions\WindowsAccessBridgeModelExtensions.cs" />
+    <Compile Include="Definitions\XmlDocCommentCollector.cs" />
+    <Compile Include="Definitions\WindowsAccessBridgeModelCollector.cs" />
+    <Compile Include="CodeGen.cs" />
+    <Compile Include="Definitions\ArrayTypeReference.cs" />
+    <Compile Include="Definitions\ClassDefinition.cs" />
+    <Compile Include="Definitions\EnumDefintion.cs" />
+    <Compile Include="Definitions\EnumMemberDefinition.cs" />
+    <Compile Include="Definitions\FieldDefinition.cs" />
+    <Compile Include="Definitions\FunctionDefinition.cs" />
+    <Compile Include="Definitions\NameTypeReference.cs" />
+    <Compile Include="Definitions\StructDefinition.cs" />
+    <Compile Include="Definitions\TypeReference.cs" />
+    <Compile Include="Definitions\XmlDocDefinition.cs" />
+    <Compile Include="Interop\NativeStructures\AccessBridgeVersionInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleActionInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleActions.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleActionsToDo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleContextInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleHyperlinkInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleHypertextInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleIconInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleIcons.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleInterfaces.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleKeyBindingInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleKeyBindings.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleKeyCode.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleModifiers.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleRelationInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleRelationSetInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleTableCellInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleTableInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleTextAttributesInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleTextInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleTextItemsInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleTextRectInfo.cs" />
+    <Compile Include="Interop\NativeStructures\AccessibleTextSelectionInfo.cs" />
+    <Compile Include="Interop\Constants.cs" />
+    <Compile Include="Interop\NativeStructures\VisibleChildrenInfo.cs" />
+    <Compile Include="Definitions\ParameterDefinition.cs" />
+    <Compile Include="Definitions\TypeDefinition.cs" />
+    <Compile Include="Definitions\EventDefinition.cs" />
+    <Compile Include="Definitions\WindowsAccessBridgeModel.cs" />
+    <Compile Include="Interop\StatusResult.cs" />
+    <Compile Include="Interop\WindowHandle.cs" />
+    <Compile Include="Interop\JavaObjectHandle.cs" />
+    <Compile Include="ElementCountAttribute.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Interop\WindowsAccessBridgeDefinition.cs" />
+    <Compile Include="SourceCodeWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

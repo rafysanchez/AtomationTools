@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessBridgeExplorer", "src\AccessBridgeExplorer\AccessBridgeExplorer.csproj", "{902E9F38-EF1A-4ED5-86BC-25881DBDABED}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51} = {4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{739A6BD0-482B-48A0-97C1-F80A266661B4}"
+	ProjectSection(SolutionItems) = preProject
+		screenshots\AccessBridgeExplorer.png = screenshots\AccessBridgeExplorer.png
+		CONTRIBUTING.md = CONTRIBUTING.md
+		LICENSE = LICENSE
+		new-release-checklist.txt = new-release-checklist.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeGen", "src\CodeGen\CodeGen.csproj", "{60FB05ED-62D8-41F1-9287-DF4183B7FE4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAccessBridgeInterop", "src\WindowsAccessBridgeInterop\WindowsAccessBridgeInterop.csproj", "{4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JABConsole", "JABConsole\JABConsole.csproj", "{D0DD430D-22BB-4DF0-B0C8-3A225DBEC5DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{902E9F38-EF1A-4ED5-86BC-25881DBDABED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902E9F38-EF1A-4ED5-86BC-25881DBDABED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902E9F38-EF1A-4ED5-86BC-25881DBDABED}.Debug|x86.ActiveCfg = Debug|x86
+		{902E9F38-EF1A-4ED5-86BC-25881DBDABED}.Debug|x86.Build.0 = Debug|x86
+		{902E9F38-EF1A-4ED5-86BC-25881DBDABED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902E9F38-EF1A-4ED5-86BC-25881DBDABED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902E9F38-EF1A-4ED5-86BC-25881DBDABED}.Release|x86.ActiveCfg = Release|x86
+		{902E9F38-EF1A-4ED5-86BC-25881DBDABED}.Release|x86.Build.0 = Release|x86
+		{60FB05ED-62D8-41F1-9287-DF4183B7FE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FB05ED-62D8-41F1-9287-DF4183B7FE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FB05ED-62D8-41F1-9287-DF4183B7FE4F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60FB05ED-62D8-41F1-9287-DF4183B7FE4F}.Debug|x86.Build.0 = Debug|Any CPU
+		{60FB05ED-62D8-41F1-9287-DF4183B7FE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FB05ED-62D8-41F1-9287-DF4183B7FE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FB05ED-62D8-41F1-9287-DF4183B7FE4F}.Release|x86.ActiveCfg = Release|Any CPU
+		{60FB05ED-62D8-41F1-9287-DF4183B7FE4F}.Release|x86.Build.0 = Release|Any CPU
+		{4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51}.Debug|x86.Build.0 = Debug|Any CPU
+		{4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51}.Release|x86.ActiveCfg = Release|Any CPU
+		{4B5DE0E1-2F0A-426D-BB12-BECB0F6F8B51}.Release|x86.Build.0 = Release|Any CPU
+		{D0DD430D-22BB-4DF0-B0C8-3A225DBEC5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DD430D-22BB-4DF0-B0C8-3A225DBEC5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DD430D-22BB-4DF0-B0C8-3A225DBEC5DE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0DD430D-22BB-4DF0-B0C8-3A225DBEC5DE}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0DD430D-22BB-4DF0-B0C8-3A225DBEC5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DD430D-22BB-4DF0-B0C8-3A225DBEC5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DD430D-22BB-4DF0-B0C8-3A225DBEC5DE}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0DD430D-22BB-4DF0-B0C8-3A225DBEC5DE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC30D823-181E-4549-BC9E-F631AA0A629F}
+	EndGlobalSection
+EndGlobal

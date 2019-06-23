@@ -1,0 +1,12 @@
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\bin\Debug\JabApiconsole.exe.config
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\bin\Debug\JabApiconsole.exe
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\bin\Debug\JabApiconsole.pdb
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\bin\Debug\JabApi.dll
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\bin\Debug\WindowsAccessBridgeInterop.dll
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\bin\Debug\JabApi.pdb
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\bin\Debug\WindowsAccessBridgeInterop.pdb
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\obj\Debug\JabApiconsole.csprojResolveAssemblyReference.cache
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\obj\Debug\JabApiconsole.csproj.CoreCompileInputs.cache
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\obj\Debug\JabApiconsole.csproj.CopyComplete
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\obj\Debug\JabApiconsole.exe
+C:\Sow\Tool\JavaAccessBridge.Net-Sample-master\JavaAccessBridge.Net-Sample-master\JabApiconsole\obj\Debug\JabApiconsole.pdb

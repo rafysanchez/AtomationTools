@@ -1,0 +1,39 @@
+When making a new release
+
+Master branch
+=============
+1. Update version # in WindowsAccessBridgeInterop\VersionNumber.cs
+
+2. Run "Build | Batch Build..." in Visual Studio, selecting all 
+   configuration entries checkboxes, then click "Rebuild".
+
+3. Go to the "bin\Release" directory and create a zip file containing all files
+   (including the x86 directory) named "AccessBridgeExplorer-x.y.z.zip", where
+    x.y.z is the version number (e.g. "0.9.0").
+    The layout should be
+    * AccessBridgeExplorer.exe
+    * AccessBridgeExplorer.exe.config
+    * AccessBridgeExplorer.pdb
+    * x86\AccessBridgeExplorer.exe
+    * x86\AccessBridgeExplorer.exe.config
+    * x86\AccessBridgeExplorer.pdb
+
+4. Commit and push to github
+
+5. Create a release named "vx.y.x" (e.g. v0.2.2) on github
+   * Create the tag "vx.y.z"
+   * Enter a short description as well as "What's new"
+   * Attach the zip file built in step 3.
+
+
+gh-pages branch
+===============
+
+1. Update the file "latest_version.txt" with the version # and
+   the github URL of the new release
+
+   version: x.y.z
+   url: https://github.com/google/access-bridge-explorer/releases/tag/vx.y.z
+
+3. Commit and push -- this will ensure people running older version get 
+   a "new version available" message
